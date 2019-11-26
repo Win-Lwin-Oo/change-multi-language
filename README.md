@@ -1,9 +1,9 @@
 # change-multi-language
 Change multiple language such as [English to Myanmar] or [Myanmar to English]
 
-![Change multi language , Simple](http://differentpoint.000webhostapp.com/tutorial/Screenshot_2019-11-26-16-24-28-741_com.winlwinoocu.changemultilanguage.png)
+<img alt="Multi language , simple" src="http://differentpoint.000webhostapp.com/tutorial/Screenshot_2019-11-26-16-24-28-741_com.winlwinoocu.changemultilanguage.png" width="300">
 
-![Change multi language , Simple](http://differentpoint.000webhostapp.com/tutorial/Screenshot_2019-11-26-16-24-34-919_com.winlwinoocu.changemultilanguage.png)
+<img alt="Multi language , simple" src="http://differentpoint.000webhostapp.com/tutorial/Screenshot_2019-11-26-16-24-34-919_com.winlwinoocu.changemultilanguage.png" width="300">
 
 How to use?
 
