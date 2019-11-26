@@ -5,17 +5,17 @@ How to use?
 
 (1)Add it in your root build.gradle at the end of repositories:
 
-  allprojects {
+  	allprojects {
 		repositories {
-			...
-			maven { url 'https://jitpack.io' }
+				...
+				maven { url 'https://jitpack.io' }
+			}
 		}
-	}
   
 (2)Add the dependency
 
-  dependencies {
-	        implementation 'com.github.Win-Lwin-Oo:change-multi-language:1.0'
-	}
+  	dependencies {
+	        	implementation 'com.github.Win-Lwin-Oo:change-multi-language:1.0'
+		}
   
   Thanks :D
