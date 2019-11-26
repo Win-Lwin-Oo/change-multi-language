@@ -1,0 +1,2 @@
+include ':app', ':multilanguage'
+rootProject.name='ChangeMultiLanguage'

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/mm_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/mm_flag"
+            android:layout_alignParentStart="true"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_myanmar"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_marginStart="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/mm_flag"
+            android:id="@+id/myanmar_lang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/myanmar"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/mm_flag" />
+    </RelativeLayout>
+
+
+    <View
+    android:layout_below="@id/mm_layout"
+    android:id="@+id/line_spacing"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/colorAccent"
+    android:text="@string/myanmar"/>
+
+    <RelativeLayout
+        android:layout_below="@id/line_spacing"
+        android:id="@+id/eng_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/eng_flag"
+            android:layout_alignParentStart="true"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_english"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_marginStart="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/eng_flag"
+            android:id="@+id/eng_lang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/english"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/eng_flag" />
+    </RelativeLayout>
+
+</RelativeLayout>
