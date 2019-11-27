@@ -21,5 +21,23 @@ How to use?
   	dependencies {
 	        	implementation 'com.github.Win-Lwin-Oo:change-multi-language:1.0'
 		}
+		
+		
+(3)Use the following method
+
+
+	MultiLanguage multiLanguage;//first declare
+	
+	multiLanguage = new MultiLanguage(this);//create object
+        /*
+         * Use loadLanguage method
+         * For load current language
+         */
+        multiLanguage.loadLanguage();
+	
+	//set language code , eg:mm for myanmar text
+	multiLanguage.setLanguage("mm");
+       	recreate();
+	
   
   Thanks :D
